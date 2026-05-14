@@ -57,6 +57,8 @@ def main_keyboard():
         [InlineKeyboardButton("Активация энергосистемы (бесплатно)", callback_data="activation")],
         [InlineKeyboardButton("BREATHCODE — купить", callback_data="breathcode")],
         [InlineKeyboardButton("О экосистеме 4Dverse", callback_data="about")],
+        [InlineKeyboardButton("🤍 🛸 Поддержать проект", url="https://buy.stripe.com/bJe4gA2IVdK80bO4be1B60d")],
+
     ])
 
 def breathcode_keyboard(user_id):
